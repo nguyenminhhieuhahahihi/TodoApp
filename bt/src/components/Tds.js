@@ -3,7 +3,9 @@ import Form from "./Form";
 import TodoList from "./TodoList";
 import Todo from './Todo';
 
+
 export const Tds = () => {
+  
 
 
 
@@ -73,9 +75,10 @@ export const Tds = () => {
   setStatus={setStatus}
   
   />
+  
   <TodoList filteredTodos={filteredTodos}
    setTodos={setTodos} todos={todos} />
-
+  
 </div>
 
 );

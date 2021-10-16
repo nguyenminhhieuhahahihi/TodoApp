@@ -112,11 +112,12 @@ form button:hover {
   font-size: 1.5rem;
   color: black;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-between; 
+   align-items: center;
   transition: all 1s ease;
   text-align: center;
   list-style: none;
+ 
 }
 .filter-todo {
   padding: 1rem;
@@ -197,3 +198,4 @@ select {
   transform: scale(1.5);
 }
 */
+
