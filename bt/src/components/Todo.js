@@ -1,5 +1,8 @@
 import react from "react";
 
+
+
+
 const Todo = ({text, todo, todos, setTodos}) => {
 
     const deleteHandler = () =>{
@@ -28,5 +31,7 @@ const Todo = ({text, todo, todos, setTodos}) => {
       </div>
       );
    };
+
+
 
 export default Todo;

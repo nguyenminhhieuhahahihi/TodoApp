@@ -1,7 +1,17 @@
-/* .App {
+.App {
   text-align: center;
   
 }
+.menuitem{
+  margin: 5px;
+  text-decoration: none;
+  color: red;
+}
+.menuitem:hover{
+  color:green;
+  font-weight: bolder;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,12 +46,13 @@
   to {
     transform: rotate(360deg);
   }
-}  */
+} 
 
 
 
 
 /************/
+
 
 
 * {
@@ -50,7 +61,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background-image: linear-gradient(120deg, #6598f6 0%, #fd85f7 100%);
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
